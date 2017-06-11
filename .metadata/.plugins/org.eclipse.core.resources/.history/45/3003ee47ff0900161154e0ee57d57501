@@ -1,0 +1,8 @@
+package com.dp.provider;
+
+import javax.ws.rs.Path;
+
+@Path("demo1")
+public class RestResourceDemo1 {
+	
+}

@@ -1,0 +1,17 @@
+package com.dp.provider;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.core.Response;
+
+@Path("/mkdemo1")
+public class MKyongDemo1 {
+	
+	@GET
+	@Path("/{message}")
+	public Response getMessage(@PathParam("message") String msg){
+		String output = "Jersey Says : "+msg;
+		return null;
+	}
+}
